@@ -1,0 +1,121 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    header {
+    
+        background:rgba(0,0,0,.2);
+         /*  background-color: rgb(57, 111, 165);
+     background: rgba(0,0,0,0.9);*/
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+      }
+      nav {
+        /* float: left; Desplazamos el nav hacia la izquierda */
+        float: right;
+      }
+      
+      nav ul {
+        list-style: none;
+        /*overflow: hidden; /* Limpiamos errores de float */
+      }
+      
+      nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+      
+      nav ul li a {
+        display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      nav ul li:hover {
+       background: #3ead47;
+    
+       /*
+       background: rgba(0,0,0,0.9)
+        
+        background-color: rgb(57, 111, 165);*/
+      }
+    
+    
+    
+    .dani{
+    
+   
+           background:rgba(0,0,0,.2);
+    
+       
+    }
+    
+    .novia1{
+    
+        border-radius: 50%; 
+    
+        object-fit: cover;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right:2px ;
+        margin-top: 0px;
+        padding: 0;
+       
+    }
+
+    .perfil{
+    
+        /* border-radius: 50%;  */
+    
+        object-fit: cover;
+        margin-bottom: 10px;
+
+        /* position:fixed; */
+       
+    }
+    
+.dani{
+    
+    
+    background:rgba(0,0,0,.2);
+    padding:10px;
+   
+    }
+
+
+    .aside {
+      width: 35%;
+      background:#75ACEC;
+      float:left;
+      padding: 20px;
+      /* box-sizing:border-box;  */
+     
+      
+      }
+      aside.aside div:hover {
+        background: #3ead47;
+     
+        /*
+        background: rgba(0,0,0,0.9)
+         
+         background-color: rgb(57, 111, 165);*/
+       }
+
+       .pepa {
+        position: relative;
+        z-index: 1;
+        box-sizing: border-box;
+        display: flex;
+        flex-grow: 1;
+        align-items:flex-start;
+        justify-content:right;
+        width: 50%;
+        height: 100%;
+        background: black;
+    }
